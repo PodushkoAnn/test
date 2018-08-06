@@ -1,5 +1,5 @@
-print ("Hello world")
-print("something else")
-print("Changes")
-print("new feature added")
-read file
+print ("Hello world;")
+print("something else;")
+print("Changes;")
+print("new feature added;")
+read file;
