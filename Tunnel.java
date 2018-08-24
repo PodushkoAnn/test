@@ -22,7 +22,7 @@ public class Tunnel extends Stage {
             } finally {
                 System.out.println(c.getName() + " закончил этап: " + description);
                 sm.release();
-                MainClass.FINISH.countDown();
+                MainClass.finish.countDown();
             }
         } catch (Exception e) {
             e.printStackTrace();
