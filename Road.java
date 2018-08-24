@@ -13,6 +13,6 @@ public class Road extends Stage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        MainClass.FINISH.countDown();
+        MainClass.finish.countDown();
     }
 }
